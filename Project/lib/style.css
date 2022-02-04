@@ -1,0 +1,91 @@
+#c1{
+  height: 700px;
+  width: 700px;
+  border: 3px ;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTysuan_33DWHZgbNOcIKFpj8aMUUKuAyDdww&usqp=CAU)
+}
+
+.transparent-text {
+  font-family: 'Rubik One', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  background: #e8e8eb;
+  display: table;
+  margin: 20px auto;
+  color: rgb(227, 227, 233);
+  border-radius: 5px;
+  mix-blend-mode: multiply;
+  padding: 5px 10px;
+}
+
+
+
+body{
+  background: #e7e6e3;
+  background-image: -webkit-radial-gradient(cover, #FFF,#e5e9eb	);
+  background-image: -moz-radial-gradient(cover, #e8eaec, #a4a8ae);
+  background-image: -o-radial-gradient(cover, #e8eaec, #a4a8ae);
+  background-image: radial-gradient(cover, #e8eaec, #a4a8ae)
+}
+
+html{
+  min-height:100%;
+}
+
+.Navigation{
+	height: 50px;
+    padding: 0;
+	margin: 0;
+	position: absolu0te;
+}
+
+.Navigation li 	{
+	height: 30px;
+	width: 133px;
+	float: left;
+	text-align: center;
+	list-style: none;
+	font:px "Bonveno", "Century Gothic";
+	padding: 0;
+	margin: 0;
+	background-color: rgb(198, 205, 211);
+	border: 1px solid #ccc;
+	box-shadow: 0 1px 0 rgba(255,255,255, .9) inset, 0 1px 3px rgba(0,0,0, .1);
+	border-radius: 9px;
+  margin-left:10px;
+}
+
+.Navigation a{							
+	padding:10px;
+	text-decoration: none; 
+	color:rgb(19, 19, 20);
+	text-shadow: 0 1px #fff;
+	display: block;
+}
+.Navigation li ul{
+	display: none;
+	height: auto;									
+	margin-left: -11px;
+	padding: 0;		
+}				
+
+.Navigation li:hover ul{
+	display: block;
+}
+
+.navbar li ul li {
+	background-color:rgb(25, 7, 73);
+  	border: 1px solid rgb(185, 38, 38);
+} 
+
+.Navigation li:hover, a:hover {
+	 background: #c1c0c4;
+} 
+.text{
+	color: #8fabb3
+
+}
+.text2{
+	color: #8fabb3
+
+}
